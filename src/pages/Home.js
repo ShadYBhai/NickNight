@@ -31,7 +31,7 @@ const Home = () => {
           </>
         ))}
       </Games>
-      <h2>Upcoming Games</h2>
+      <h2>Popular</h2>
       <Games>
         {popular.map((game) => (
           <>
@@ -45,7 +45,7 @@ const Home = () => {
           </>
         ))}
       </Games>
-      <h2>Upcoming Games</h2>
+      <h2>New Games</h2>
       <Games>
         {newGames.map((game) => (
           <>
