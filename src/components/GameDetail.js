@@ -12,6 +12,7 @@ const GameDetail = () => {
         <div className="stats">
           <div className="rating">
             <h3>{game.name}</h3>
+            <p>Rating: {game.rating}</p>
           </div>
           <div className="info">
             <h3>Platform</h3>
