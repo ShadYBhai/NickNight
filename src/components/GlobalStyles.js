@@ -18,6 +18,9 @@ const GlobalStyles = createGlobalStyle`
             background-color: white;
         }
     }
+    img{
+        display: block;
+    }
 
     body{
         font-family: 'Montserrat', sans-serif;
