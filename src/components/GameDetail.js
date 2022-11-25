@@ -17,9 +17,6 @@ const GameDetail = () => {
       history.push("/");
     }
   };
-
-  console.log(game);
-
   return (
     <>
       {!isLoading && (
